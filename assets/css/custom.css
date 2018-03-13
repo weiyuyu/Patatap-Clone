@@ -1,0 +1,36 @@
+canvas {
+	width: 100%;
+	height: 100%;
+}
+
+body, html {
+ height: 100%;
+ margin: 0;
+ background-color: gray;
+ font-family: 'Raleway'
+}
+
+h1{
+	font-weight: 700;
+}
+
+h2{
+	font-weight: 500;
+	font-style: italic;
+}
+
+#canvas-wrap{
+	position: relative;
+}
+
+#msg{
+	color: #f8f8f8;
+	text-align: center;
+	top: 50%;
+	bottom: 50%;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 0;
+}
